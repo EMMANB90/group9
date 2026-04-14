@@ -1,0 +1,89 @@
+body {
+    background-color: #dcdcdc;
+    font-family: Arial, sans-serif;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    margin: auto;
+    background-color: white;
+}
+
+/* Header */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+/* Logos */
+.logo img {
+    width: 80px;
+}
+
+/* Title */
+.title {
+    text-align: center;
+    flex: 1;
+}
+
+.title h2 {
+    margin: 5px;
+    font-weight: bold;
+}
+
+.title p {
+    font-size: 12px;
+    color: green;
+}
+
+/* Navigation */
+.nav {
+    background-color: #8B0000;
+    padding: 10px;
+    text-align: center;
+}
+
+.nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Content */
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+/* Cards */
+.card {
+    width: 30%;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+/* Image */
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+/* Title inside card */
+.card h3 {
+    background-color: #2f4f2f;
+    color: yellow;
+    padding: 10px;
+    margin: 0;
+}
+
+/* Paragraph */
+.card p {
+    padding: 10px;
+    font-size: 14px;
+    text-align: justify;
+}
